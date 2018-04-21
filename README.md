@@ -1,12 +1,14 @@
-#Open City Database
-The idea is to make a series of JSON files that all follow the same format to easily integrate with web projects.
+# Open City Database
 -------------
-##Format
+The idea is to make a series of JSON files that all follow the same format to easily integrate with web projects.
+
+## Format
+-------------
 For all files, please save as the country name in parameterized notation.
 Ex:  st-kitts-and-neves.json, united-states-of-america.json, china.json
--------------
-##JSON Structure
 
+## JSON Structure
+------------
 
 For each "country file", please try to add english & the local language. If you can add other languages, that would be helpful too.
 The idea is that the database of json files should become increasingly more complete.
@@ -14,7 +16,7 @@ If a country does not have provinces, please write "has_provinces": false, then 
 
 Example of Structure:
 
-'''
+```
 {
   "country_name_en": "China",
   "country_name_zh": "中国",
@@ -39,4 +41,4 @@ Example of Structure:
     etc.
   ]
  }
-'''
+```
